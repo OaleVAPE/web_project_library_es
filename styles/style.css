@@ -9,6 +9,8 @@
   background-color: #ffffff;
 }
 
+/* ===== HEADER ===== */
+
 .header {
   display: flex;
   flex-direction: column;
@@ -18,6 +20,8 @@
   padding: 30px 80px 40px;
   box-sizing: border-box;
 }
+
+/* ===== NAV ===== */
 
 .nav {
   display: flex;
@@ -44,9 +48,11 @@
   color: #000000;
 }
 
-/* 🔽 CLASE PEDIDA POR LAS PRUEBAS */
+/* CLASE PEDIDA POR LAS PRUEBAS */
 .header__link {
 }
+
+/* ===== CONTENIDO HEADER ===== */
 
 .header__content {
   display: flex;
@@ -74,10 +80,9 @@
   height: auto;
 }
 
+/* ===== FOOTER HEADER (NO MODIFICAR ESTILOS) ===== */
+
 .header__footer {
-  margin-top: auto;
-  display: flex;
-  justify-content: flex-end;
 }
 
 .header__address {
@@ -85,9 +90,13 @@
   color: #838383;
 }
 
+/* ===== MAIN ===== */
+
 .content {
   box-sizing: border-box;
 }
+
+/* ===== STAFF ===== */
 
 .staff {
   padding: 60px 80px;
