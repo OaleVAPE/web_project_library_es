@@ -94,7 +94,6 @@
 
 /* =========================
    FOOTER DEL HEADER
-   (NO MODIFICAR)
 ========================= */
 
 .header__footer {
@@ -200,10 +199,5 @@
   font-size: 14px;
   color: #838383;
 }
-
-/* =========================
-   CLASE REQUERIDA POR PRUEBAS
-========================= */
-
 .header__link {
 }
