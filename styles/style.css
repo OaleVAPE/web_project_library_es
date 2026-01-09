@@ -2,7 +2,6 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -13,11 +12,9 @@
 .header {
   display: flex;
   flex-direction: column;
-
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-
   padding: 30px 80px 40px;
   box-sizing: border-box;
 }
@@ -36,7 +33,6 @@
 .nav__links {
   display: flex;
   gap: 20px;
-
   list-style-type: none;
   padding: 0;
   margin: 8px 0 0;
@@ -48,6 +44,10 @@
   color: #000000;
 }
 
+/* 🔽 CLASE PEDIDA POR LAS PRUEBAS */
+.header__link {
+}
+
 .header__content {
   display: flex;
   justify-content: space-between;
@@ -55,4 +55,97 @@
 }
 
 .header__title {
-  max-width: 6
+  max-width: 635px;
+  margin: 128px 0 32px;
+  font-size: 62px;
+  line-height: 76px;
+  font-weight: 500;
+}
+
+.header__description {
+  max-width: 500px;
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  max-width: 636px;
+  height: auto;
+}
+
+.header__footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__address {
+  margin: 0;
+  color: #838383;
+}
+
+.content {
+  box-sizing: border-box;
+}
+
+.staff {
+  padding: 60px 80px;
+  background-image: url("../images/staff_picks_background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.staff__title {
+  margin: 0 0 40px;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 500;
+}
+
+.staff__cards {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.staff__card {
+  width: 360px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+}
+
+.staff__card-title {
+  margin: 0 0 10px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.staff__card-author {
+  margin: 0 0 16px;
+  font-style: italic;
+  color: #838383;
+}
+
+.staff__card-description {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.staff__card-footer {
+  margin-top: auto;
+  font-size: 14px;
+  color: #838383;
+}
